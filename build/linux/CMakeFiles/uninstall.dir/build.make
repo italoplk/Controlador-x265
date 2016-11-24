@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/italo/Documentos/x265_2.0/source
+CMAKE_SOURCE_DIR = /home/italo/Documentos/X265_2.0-Controle/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/italo/Documentos/x265_2.0/build/linux
+CMAKE_BINARY_DIR = /home/italo/Documentos/X265_2.0-Controle/build/linux
 
 # Utility rule file for uninstall.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /home/italo/Documentos/x265_2.0/build/linux
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/italo/Documentos/x265_2.0/build/linux/cmake/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/italo/Documentos/X265_2.0-Controle/build/linux/cmake/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/italo/Documentos/x265_2.0/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/x265_2.0/source /home/italo/Documentos/x265_2.0/source /home/italo/Documentos/x265_2.0/build/linux /home/italo/Documentos/x265_2.0/build/linux /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/italo/Documentos/X265_2.0-Controle/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/X265_2.0-Controle/source /home/italo/Documentos/X265_2.0-Controle/source /home/italo/Documentos/X265_2.0-Controle/build/linux /home/italo/Documentos/X265_2.0-Controle/build/linux /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

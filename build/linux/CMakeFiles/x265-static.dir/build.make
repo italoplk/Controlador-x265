@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/italo/Documentos/x265_2.0/source
+CMAKE_SOURCE_DIR = /home/italo/Documentos/X265_2.0-Controle/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/italo/Documentos/x265_2.0/build/linux
+CMAKE_BINARY_DIR = /home/italo/Documentos/X265_2.0-Controle/build/linux
 
 # Include any dependencies generated for this target.
 include CMakeFiles/x265-static.dir/depend.make
@@ -57,53 +57,53 @@ x265__static_OBJECTS =
 
 # External object files for target x265-static
 x265__static_EXTERNAL_OBJECTS = \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/analysis.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/search.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/bitcost.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/motion.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/slicetype.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/frameencoder.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/framefilter.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/level.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/nal.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/sei.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/sao.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/entropy.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/dpb.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/ratecontrol.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/reference.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/encoder.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/api.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/encoder/CMakeFiles/encoder.dir/weightPrediction.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/primitives.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/pixel.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/dct.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/ipfilter.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/intrapred.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/loopfilter.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/constants.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/cpu.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/version.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/threading.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/threadpool.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/wavefront.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/md5.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/bitstream.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/yuv.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/shortyuv.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/picyuv.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/common.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/param.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/frame.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/framedata.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/cudata.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/slice.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/lowres.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/piclist.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/predict.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/scalinglist.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/quant.cpp.o" \
-"/home/italo/Documentos/x265_2.0/build/linux/common/CMakeFiles/common.dir/deblock.cpp.o"
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/analysis.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/search.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/bitcost.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/motion.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/slicetype.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/frameencoder.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/framefilter.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/level.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/nal.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/sei.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/sao.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/entropy.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/dpb.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/ratecontrol.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/reference.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/encoder.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/api.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/CMakeFiles/encoder.dir/weightPrediction.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/primitives.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/pixel.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/dct.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/ipfilter.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/intrapred.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/loopfilter.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/constants.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/cpu.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/version.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/threading.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/threadpool.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/wavefront.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/md5.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/bitstream.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/yuv.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/shortyuv.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/picyuv.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/common.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/param.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/frame.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/framedata.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/cudata.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/slice.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/lowres.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/piclist.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/predict.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/scalinglist.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/quant.cpp.o" \
+"/home/italo/Documentos/X265_2.0-Controle/build/linux/common/CMakeFiles/common.dir/deblock.cpp.o"
 
 libx265.a: encoder/CMakeFiles/encoder.dir/analysis.cpp.o
 libx265.a: encoder/CMakeFiles/encoder.dir/search.cpp.o
@@ -170,6 +170,6 @@ CMakeFiles/x265-static.dir/clean:
 .PHONY : CMakeFiles/x265-static.dir/clean
 
 CMakeFiles/x265-static.dir/depend:
-	cd /home/italo/Documentos/x265_2.0/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/x265_2.0/source /home/italo/Documentos/x265_2.0/source /home/italo/Documentos/x265_2.0/build/linux /home/italo/Documentos/x265_2.0/build/linux /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/x265-static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/italo/Documentos/X265_2.0-Controle/build/linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/italo/Documentos/X265_2.0-Controle/source /home/italo/Documentos/X265_2.0-Controle/source /home/italo/Documentos/X265_2.0-Controle/build/linux /home/italo/Documentos/X265_2.0-Controle/build/linux /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/x265-static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/x265-static.dir/depend
 

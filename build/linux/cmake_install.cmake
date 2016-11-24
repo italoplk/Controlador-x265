@@ -1,4 +1,4 @@
-# Install script for directory: /home/italo/Documentos/x265_2.0/source
+# Install script for directory: /home/italo/Documentos/X265_2.0-Controle/source
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/italo/Documentos/x265_2.0/build/linux/libx265.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/italo/Documentos/X265_2.0-Controle/build/linux/libx265.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/italo/Documentos/x265_2.0/source/x265.h"
-    "/home/italo/Documentos/x265_2.0/build/linux/x265_config.h"
+    "/home/italo/Documentos/X265_2.0-Controle/source/x265.h"
+    "/home/italo/Documentos/X265_2.0-Controle/build/linux/x265_config.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -56,8 +56,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     ENDIF()
   ENDFOREACH()
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/italo/Documentos/x265_2.0/build/linux/libx265.so.87"
-    "/home/italo/Documentos/x265_2.0/build/linux/libx265.so"
+    "/home/italo/Documentos/X265_2.0-Controle/build/linux/libx265.so.87"
+    "/home/italo/Documentos/X265_2.0-Controle/build/linux/libx265.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libx265.so.87"
@@ -73,7 +73,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/italo/Documentos/x265_2.0/build/linux/x265.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/italo/Documentos/X265_2.0-Controle/build/linux/x265.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -83,7 +83,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/x265"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/italo/Documentos/x265_2.0/build/linux/x265")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/italo/Documentos/X265_2.0-Controle/build/linux/x265")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/x265" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/x265")
     FILE(RPATH_REMOVE
@@ -96,8 +96,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/italo/Documentos/x265_2.0/build/linux/encoder/cmake_install.cmake")
-  INCLUDE("/home/italo/Documentos/x265_2.0/build/linux/common/cmake_install.cmake")
+  INCLUDE("/home/italo/Documentos/X265_2.0-Controle/build/linux/encoder/cmake_install.cmake")
+  INCLUDE("/home/italo/Documentos/X265_2.0-Controle/build/linux/common/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -107,7 +107,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/italo/Documentos/x265_2.0/build/linux/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/italo/Documentos/X265_2.0-Controle/build/linux/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/italo/Documentos/x265_2.0/build/linux/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/italo/Documentos/X265_2.0-Controle/build/linux/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

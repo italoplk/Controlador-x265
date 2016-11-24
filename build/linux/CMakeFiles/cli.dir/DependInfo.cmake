@@ -4,16 +4,16 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/italo/Documentos/x265_2.0/source/input/input.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/input/input.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/input/y4m.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/input/y4m.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/input/yuv.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/input/yuv.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/output/output.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/output/output.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/output/raw.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/output/raw.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/output/reconplay.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/output/reconplay.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/output/y4m.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/output/y4m.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/output/yuv.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/output/yuv.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/x265-extras.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/x265-extras.cpp.o"
-  "/home/italo/Documentos/x265_2.0/source/x265.cpp" "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/cli.dir/x265.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/input/input.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/input/input.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/input/y4m.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/input/y4m.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/input/yuv.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/input/yuv.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/output/output.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/output/output.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/output/raw.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/output/raw.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/output/reconplay.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/output/reconplay.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/output/y4m.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/output/y4m.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/output/yuv.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/output/yuv.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/x265-extras.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/x265-extras.cpp.o"
+  "/home/italo/Documentos/X265_2.0-Controle/source/x265.cpp" "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/cli.dir/x265.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,14 +31,14 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/x265-shared.dir/DependInfo.cmake"
+  "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/x265-shared.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/italo/Documentos/x265_2.0/source/."
-  "/home/italo/Documentos/x265_2.0/source/common"
-  "/home/italo/Documentos/x265_2.0/source/encoder"
+  "/home/italo/Documentos/X265_2.0-Controle/source/."
+  "/home/italo/Documentos/X265_2.0-Controle/source/common"
+  "/home/italo/Documentos/X265_2.0-Controle/source/encoder"
   "."
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

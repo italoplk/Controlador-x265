@@ -1,0 +1,7 @@
+/home/italo/Documentos/X265_2.0-Controle/source/CMakeFiles/clean-generated.dir
+/home/italo/Documentos/X265_2.0-Controle/source/CMakeFiles/cli.dir
+/home/italo/Documentos/X265_2.0-Controle/source/common/CMakeFiles/common.dir
+/home/italo/Documentos/X265_2.0-Controle/source/encoder/CMakeFiles/encoder.dir
+/home/italo/Documentos/X265_2.0-Controle/source/CMakeFiles/uninstall.dir
+/home/italo/Documentos/X265_2.0-Controle/source/CMakeFiles/x265-shared.dir
+/home/italo/Documentos/X265_2.0-Controle/source/CMakeFiles/x265-static.dir

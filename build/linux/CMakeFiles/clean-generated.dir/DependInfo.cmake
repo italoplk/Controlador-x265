@@ -21,9 +21,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/italo/Documentos/x265_2.0/source/."
-  "/home/italo/Documentos/x265_2.0/source/common"
-  "/home/italo/Documentos/x265_2.0/source/encoder"
+  "/home/italo/Documentos/X265_2.0-Controle/source/."
+  "/home/italo/Documentos/X265_2.0-Controle/source/common"
+  "/home/italo/Documentos/X265_2.0-Controle/source/encoder"
   "."
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

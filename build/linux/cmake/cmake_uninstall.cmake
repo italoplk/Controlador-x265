@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/italo/Documentos/x265_2.0/build/linux/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: '/home/italo/Documentos/x265_2.0/build/linux/install_manifest.txt'")
+if(NOT EXISTS "/home/italo/Documentos/X265_2.0-Controle/build/linux/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: '/home/italo/Documentos/X265_2.0-Controle/build/linux/install_manifest.txt'")
 endif()
 
-file(READ "/home/italo/Documentos/x265_2.0/build/linux/install_manifest.txt" files)
+file(READ "/home/italo/Documentos/X265_2.0-Controle/build/linux/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
     message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

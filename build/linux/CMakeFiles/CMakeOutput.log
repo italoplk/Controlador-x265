@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2621932887/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2621932887.dir/build.make CMakeFiles/cmTryCompileExec2621932887.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2621932887.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2621932887.dir/testCCompiler.c.o   -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2621932887
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2621932887.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2621932887.dir/testCCompiler.c.o  -o cmTryCompileExec2621932887 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3791751255/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3791751255.dir/build.make CMakeFiles/cmTryCompileExec3791751255.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3791751255.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3791751255.dir/testCCompiler.c.o   -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3791751255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3791751255.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3791751255.dir/testCCompiler.c.o  -o cmTryCompileExec3791751255 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1109230941/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1109230941.dir/build.make CMakeFiles/cmTryCompileExec1109230941.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1109230941
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1109230941.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1109230941 -rdynamic  
+Run Build Command:/usr/bin/make "cmTryCompileExec3511913585/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3511913585.dir/build.make CMakeFiles/cmTryCompileExec3511913585.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3511913585
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3511913585.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3511913585 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1109230941' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1109230941 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3511913585' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3511913585 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1109230941/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1109230941.dir/build.make CMakeFiles/cmTryCompileExec1109230941.dir/build]
-  ignore line: [make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1109230941]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1109230941.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1109230941 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3511913585/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3511913585.dir/build.make CMakeFiles/cmTryCompileExec3511913585.dir/build]
+  ignore line: [make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3511913585]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3511913585.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3511913585 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1109230941' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1109230941 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3511913585' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3511913585 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1109230941] ==> ignore
+    arg [cmTryCompileExec3511913585] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec1109230941.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3511913585.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -145,32 +145,32 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec762426798/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec762426798.dir/build.make CMakeFiles/cmTryCompileExec762426798.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec762426798.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec762426798.dir/testCXXCompiler.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec762426798
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec762426798.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec762426798.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec762426798 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec966614764/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec966614764.dir/build.make CMakeFiles/cmTryCompileExec966614764.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec966614764.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec966614764.dir/testCXXCompiler.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec966614764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec966614764.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec966614764.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec966614764 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4117505239/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4117505239.dir/build.make CMakeFiles/cmTryCompileExec4117505239.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec4117505239
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4117505239.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4117505239 -rdynamic  
+Run Build Command:/usr/bin/make "cmTryCompileExec271080370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec271080370.dir/build.make CMakeFiles/cmTryCompileExec271080370.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec271080370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec271080370.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec271080370 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -180,24 +180,24 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4117505239' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4117505239 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec271080370' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec271080370 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4117505239/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4117505239.dir/build.make CMakeFiles/cmTryCompileExec4117505239.dir/build]
-  ignore line: [make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec4117505239]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4117505239.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4117505239 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec271080370/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec271080370.dir/build.make CMakeFiles/cmTryCompileExec271080370.dir/build]
+  ignore line: [make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec271080370]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec271080370.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec271080370 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -207,8 +207,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4117505239' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4117505239 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec271080370' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec271080370 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -222,7 +222,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec4117505239] ==> ignore
+    arg [cmTryCompileExec271080370] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -234,7 +234,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec4117505239.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec271080370.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -262,131 +262,131 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if files inttypes.h exist passed with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1599895807/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1599895807.dir/build.make CMakeFiles/cmTryCompileExec1599895807.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1599895807.dir/CheckIncludeFiles.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1599895807.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec1599895807
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1599895807.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1599895807.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1599895807 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2698801957/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2698801957.dir/build.make CMakeFiles/cmTryCompileExec2698801957.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2698801957.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2698801957.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2698801957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2698801957.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2698801957.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2698801957 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeded with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3274128524/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3274128524.dir/build.make CMakeFiles/cmTryCompileExec3274128524.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3274128524.dir/src.cxx.o
-/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTryCompileExec3274128524.dir/src.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3274128524
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3274128524.dir/link.txt --verbose=1
-/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW    CMakeFiles/cmTryCompileExec3274128524.dir/src.cxx.o  -o cmTryCompileExec3274128524 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec754179213/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec754179213.dir/build.make CMakeFiles/cmTryCompileExec754179213.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec754179213.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTryCompileExec754179213.dir/src.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec754179213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec754179213.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW    CMakeFiles/cmTryCompileExec754179213.dir/src.cxx.o  -o cmTryCompileExec754179213 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeded with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1121909409/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1121909409.dir/build.make CMakeFiles/cmTryCompileExec1121909409.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1121909409.dir/src.cxx.o
-/usr/bin/c++    -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTryCompileExec1121909409.dir/src.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1121909409
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1121909409.dir/link.txt --verbose=1
-/usr/bin/c++    -DCC_HAS_NO_NARROWING    CMakeFiles/cmTryCompileExec1121909409.dir/src.cxx.o  -o cmTryCompileExec1121909409 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3374077351/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3374077351.dir/build.make CMakeFiles/cmTryCompileExec3374077351.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3374077351.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTryCompileExec3374077351.dir/src.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3374077351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3374077351.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_NARROWING    CMakeFiles/cmTryCompileExec3374077351.dir/src.cxx.o  -o cmTryCompileExec3374077351 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeded with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4260592645/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4260592645.dir/build.make CMakeFiles/cmTryCompileExec4260592645.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4260592645.dir/src.cxx.o
-/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTryCompileExec4260592645.dir/src.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec4260592645
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4260592645.dir/link.txt --verbose=1
-/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS    CMakeFiles/cmTryCompileExec4260592645.dir/src.cxx.o  -o cmTryCompileExec4260592645 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec1607883018/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1607883018.dir/build.make CMakeFiles/cmTryCompileExec1607883018.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1607883018.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTryCompileExec1607883018.dir/src.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1607883018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1607883018.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS    CMakeFiles/cmTryCompileExec1607883018.dir/src.cxx.o  -o cmTryCompileExec1607883018 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeded with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2647997534/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2647997534.dir/build.make CMakeFiles/cmTryCompileExec2647997534.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2647997534.dir/src.cxx.o
-/usr/bin/c++    -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTryCompileExec2647997534.dir/src.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2647997534
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2647997534.dir/link.txt --verbose=1
-/usr/bin/c++    -DCC_HAS_FAST_MATH    CMakeFiles/cmTryCompileExec2647997534.dir/src.cxx.o  -o cmTryCompileExec2647997534 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3302472076/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3302472076.dir/build.make CMakeFiles/cmTryCompileExec3302472076.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3302472076.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTryCompileExec3302472076.dir/src.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3302472076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3302472076.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FAST_MATH    CMakeFiles/cmTryCompileExec3302472076.dir/src.cxx.o  -o cmTryCompileExec3302472076 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeded with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec979333855/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec979333855.dir/build.make CMakeFiles/cmTryCompileExec979333855.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec979333855.dir/src.cxx.o
-/usr/bin/c++    -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTryCompileExec979333855.dir/src.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec979333855
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec979333855.dir/link.txt --verbose=1
-/usr/bin/c++    -DCC_HAS_STACK_REALIGN    CMakeFiles/cmTryCompileExec979333855.dir/src.cxx.o  -o cmTryCompileExec979333855 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec1664114697/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1664114697.dir/build.make CMakeFiles/cmTryCompileExec1664114697.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1664114697.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTryCompileExec1664114697.dir/src.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1664114697
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1664114697.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN    CMakeFiles/cmTryCompileExec1664114697.dir/src.cxx.o  -o cmTryCompileExec1664114697 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeded with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3804860059/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3804860059.dir/build.make CMakeFiles/cmTryCompileExec3804860059.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3804860059.dir/src.cxx.o
-/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTryCompileExec3804860059.dir/src.cxx.o -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3804860059
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3804860059.dir/link.txt --verbose=1
-/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG    CMakeFiles/cmTryCompileExec3804860059.dir/src.cxx.o  -o cmTryCompileExec3804860059 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec718429394/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec718429394.dir/build.make CMakeFiles/cmTryCompileExec718429394.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec718429394.dir/src.cxx.o
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTryCompileExec718429394.dir/src.cxx.o -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec718429394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec718429394.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG    CMakeFiles/cmTryCompileExec718429394.dir/src.cxx.o  -o cmTryCompileExec718429394 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
 Determining if the strtok_r exist passed with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4153539711/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4153539711.dir/build.make CMakeFiles/cmTryCompileExec4153539711.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4153539711.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4153539711.dir/CheckSymbolExists.c.o   -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec4153539711
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4153539711.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4153539711.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4153539711 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec1703396748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1703396748.dir/build.make CMakeFiles/cmTryCompileExec1703396748.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1703396748.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1703396748.dir/CheckSymbolExists.c.o   -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1703396748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1703396748.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1703396748.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1703396748 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
-File /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <string.h>
 
@@ -402,17 +402,17 @@ int main(int argc, char** argv)
 }
 
 Determining if files getopt.h exist passed with the following output:
-Change Dir: /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp
+Change Dir: /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3128564785/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3128564785.dir/build.make CMakeFiles/cmTryCompileExec3128564785.dir/build
-make[1]: Entering directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3128564785.dir/CheckIncludeFiles.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3128564785.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec3128564785
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3128564785.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3128564785.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3128564785 -rdynamic 
-make[1]: Leaving directory `/home/italo/Documentos/x265_2.0/build/linux/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec4065647146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4065647146.dir/build.make CMakeFiles/cmTryCompileExec4065647146.dir/build
+make[1]: Entering directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4065647146.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4065647146.dir/CheckIncludeFiles.c.o   -c /home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4065647146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4065647146.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4065647146.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4065647146 -rdynamic 
+make[1]: Leaving directory `/home/italo/Documentos/X265_2.0-Controle/build/linux/CMakeFiles/CMakeTmp'
 
 
