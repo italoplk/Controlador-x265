@@ -586,6 +586,24 @@
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>source</pElem>
+            <pElem>source/common</pElem>
+            <pElem>source/encoder</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>EXPORT_C_API=1</Elem>
+            <Elem>HAVE_INT_TYPES_H=1</Elem>
+            <Elem>HIGH_BIT_DEPTH=0</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>X265_ARCH_X86=1</Elem>
+            <Elem>X265_DEPTH=8</Elem>
+            <Elem>X265_NS=x265</Elem>
+            <Elem>X86_64=1</Elem>
+            <Elem>__STDC_LIMIT_MACROS=1</Elem>
+          </preprocessorList>
+        </ccTool>
       </item>
       <item path="../X265_2.0-Controle/source/common/quant.cpp"
             ex="false"

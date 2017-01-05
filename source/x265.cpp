@@ -33,6 +33,7 @@
 #include "output/output.h"
 #include "output/reconplay.h"
 
+
 #if HAVE_VLD
 /* Visual Leak Detector */
 #include <vld.h>
@@ -138,6 +139,7 @@ void CLIOptions::destroy()
 
 void CLIOptions::printStatus(uint32_t frameNum)
 {
+    
     char buf[200];
     int64_t time = x265_mdate();
 
@@ -637,8 +639,12 @@ int main(int argc, char **argv)
         else
             cliopt.bDither = false;
     }
-
+        //IDm colocar thread aqui provavel
+   
     // main encoder loop
+    //IDm 
+       int codFrames;
+       codFrames = 0;
     while (pic_in && !b_ctrl_c)
     {
         pic_orig.poc = inFrameCount;
@@ -654,8 +660,11 @@ int main(int argc, char **argv)
 
         if (cliopt.framesToBeEncoded && inFrameCount >= cliopt.framesToBeEncoded)
             pic_in = NULL;
-        else if (cliopt.input->readPicture(pic_orig))
+        else if (cliopt.input->readPicture(pic_orig)){
             inFrameCount++;
+            //IDm
+            //printf("\n%d - InFRAMECOUNT <----\n", inFrameCount);
+        }
         else
             pic_in = NULL;
 
@@ -671,6 +680,8 @@ int main(int argc, char **argv)
         }
 
         int numEncoded = api->encoder_encode(encoder, &p_nal, &nal, pic_in, pic_recon);
+        
+        //printf("\n%d NUM ENCODED\n",numEncoded);
         if (numEncoded < 0)
         {
             b_ctrl_c = 1;
@@ -682,6 +693,7 @@ int main(int argc, char **argv)
             reconPlay->writePicture(*pic_recon);
 
         outFrameCount += numEncoded;
+              
 
         if (numEncoded && pic_recon && cliopt.recon)
             cliopt.recon->writePicture(pic_out);
@@ -695,8 +707,15 @@ int main(int argc, char **argv)
                     pts_queue->pop();
             }
         }
+        
+        //IDm
+        codFrames++;
+        printf("\n%d - CODFRAME <----\n", codFrames);
 
+            
+        
         cliopt.printStatus(outFrameCount);
+         //printf("\nOutFrame %d\n", outFrameCount);
         if (numEncoded && cliopt.csvLogLevel)
             x265_csvlog_frame(cliopt.csvfpt, *param, *pic_recon, cliopt.csvLogLevel);
     }
@@ -705,6 +724,8 @@ int main(int argc, char **argv)
     while (!b_ctrl_c)
     {
         int numEncoded = api->encoder_encode(encoder, &p_nal, &nal, NULL, pic_recon);
+          
+            
         if (numEncoded < 0)
         {
             ret = 4;
@@ -729,6 +750,11 @@ int main(int argc, char **argv)
         }
 
         cliopt.printStatus(outFrameCount);
+                printf("\nOutFrame %d\n", outFrameCount);
+                if(outFrameCount > 5) 
+                    //IDm inserir controle dentro do reconfig
+                     x265_encoder_reconfig(encoder, param);
+                  
         if (numEncoded && cliopt.csvLogLevel)
             x265_csvlog_frame(cliopt.csvfpt, *param, *pic_recon, cliopt.csvLogLevel);
 

@@ -8,8 +8,10 @@
         <df name="2.8.12.2">
           <df name="CompilerIdC">
             <in>CMakeCCompilerId.c</in>
+            <in>CMakeCCompilerId.c</in>
           </df>
           <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
             <in>CMakeCXXCompilerId.cpp</in>
           </df>
         </df>
@@ -50,6 +52,10 @@
           <in>pixel.h</in>
           <in>sad-a.S</in>
           <in>ssd-a.S</in>
+        </df>
+        <df name="CMakeFiles">
+          <df name="common.dir">
+          </df>
         </df>
         <df name="vec">
           <in>dct-sse3.cpp</in>
@@ -157,6 +163,10 @@
         </df>
       </df>
       <df name="encoder">
+        <df name="CMakeFiles">
+          <df name="encoder.dir">
+          </df>
+        </df>
         <in>analysis.cpp</in>
         <in>analysis.h</in>
         <in>api.cpp</in>
@@ -272,8 +282,12 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
         <gdb_options>
           <DebugOptions>
+            <option name="gdb_source_dirs" value="source:."/>
+            <option name="debug_dir" value="/home/italo/Documentos/X265_2.0-Controle/."/>
           </DebugOptions>
         </gdb_options>
         <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
@@ -284,9 +298,12 @@
       <runprofile version="9">
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>sudo taskset -c 1 ./source/x265 --input-res 832x448 --no-asm  --frame-threads 1 --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --tune psnr --psnr --frames 20 --fps 50 --qp 22  --ctu 64 --min-cu-size  8 --bframes  8 --b-adapt  2 --max-merge  5 --rc-lookahead  60 --rd  6 --rdoq-level  2 --tu-intra  4 --tu-inter  4 --scenecut  40 --ref  5 --limit-refs  0 --merange  92 --subme  5 --me  star  --rect  --amp  --no-limit-modes  --no-early-skip  --no-fast-intra  --b-intra  --sao  --signhide  --weightp  --weightb --aq-mode  1 --log-level 4 --csv-log-level 2 --csv Resultados/x265_PartyScene_832x448_FPS-50_Fr-200_QP_22_TESTE_SR.csv --input ../x265_2.0/OrigCfP/cropped/PartyScene_832x448_50.yuv -o str.bin </runcommandpicklistitem>
+          <runcommandpicklistitem> taskset -c 1 ./source/x265 --input-res 832x448 --no-asm  --frame-threads 1 --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --tune psnr --psnr --frames 20 --fps 50 --qp 22  --ctu 64 --min-cu-size  8 --bframes  8 --b-adapt  2 --max-merge  5 --rc-lookahead  60 --rd  6 --rdoq-level  2 --tu-intra  4 --tu-inter  4 --scenecut  40 --ref  5 --limit-refs  0 --merange  92 --subme  5 --me  star  --rect  --amp  --no-limit-modes  --no-early-skip  --no-fast-intra  --b-intra  --sao  --signhide  --weightp  --weightb --aq-mode  1 --log-level 4 --csv-log-level 2 Fr-20 --input ../x265_2.0/OrigCfP/cropped/PartyScene_832x448_50.yuv -o str.bin</runcommandpicklistitem>
+          <runcommandpicklistitem>taskset -c 1 ./source/x265 --input-res 832x448 --no-asm  --frame-threads 1 --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --tune psnr --psnr --frames 20 --fps 50 --qp 22  --ctu 64 --min-cu-size  8 --bframes  8 --b-adapt  2 --max-merge  5 --rc-lookahead  60 --rd  6 --rdoq-level  2 --tu-intra  4 --tu-inter  4 --scenecut  40 --ref  5 --limit-refs  0 --merange  92 --subme  5 --me  star  --rect  --amp  --no-limit-modes  --no-early-skip  --no-fast-intra  --b-intra  --sao  --signhide  --weightp  --weightb --aq-mode  1 --log-level 4  --input ../x265_2.0/OrigCfP/cropped/PartyScene_832x448_50.yuv -o str.bin</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}"</runcommand>
-        <rundir>../X265_2.0-Controle/build/linux</rundir>
+        <runcommand>taskset -c 1 ./source/x265 --input-res 832x448 --no-asm  --frame-threads 1 --no-wpp --no-pmode  --no-pme --lookahead-slices 0 --tune psnr --psnr --frames 20 --fps 50 --qp 22  --ctu 64 --min-cu-size  8 --bframes  8 --b-adapt  2 --max-merge  5 --rc-lookahead  60 --rd  6 --rdoq-level  2 --tu-intra  4 --tu-inter  4 --scenecut  40 --ref  5 --limit-refs  0 --merange  92 --subme  5 --me  star  --rect  --amp  --no-limit-modes  --no-early-skip  --no-fast-intra  --b-intra  --sao  --signhide  --weightp  --weightb --aq-mode  1 --log-level 4  --input ../x265_2.0/OrigCfP/cropped/PartyScene_832x448_50.yuv -o str.bin</runcommand>
+        <rundir>/home/italo/Documentos/X265_2.0-Controle/</rundir>
         <buildfirst>false</buildfirst>
         <terminal-type>0</terminal-type>
         <remove-instrumentation>0</remove-instrumentation>

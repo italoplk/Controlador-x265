@@ -906,8 +906,10 @@ int Encoder::reconfigureParam(x265_param* encParam, x265_param* param)
     encParam->bEnableRecursionSkip = param->bEnableRecursionSkip;
     encParam->searchMethod = param->searchMethod;
     /* Scratch buffer prevents me_range from being increased for esa/tesa */
-    if (param->searchRange < encParam->searchRange)
-        encParam->searchRange = param->searchRange;
+    //IDm
+    //if (param->searchRange < encParam->searchRange)
+        encParam->searchRange = 57;
+    
     /* We can't switch out of subme=0 during encoding. */
     if (encParam->subpelRefine)
         encParam->subpelRefine = param->subpelRefine;
