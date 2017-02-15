@@ -197,7 +197,7 @@ int x265_encoder_encode(x265_encoder *enc, x265_nal **pp_nal, uint32_t *pi_nal, 
     do
     {
         numEncoded = encoder->encode(pic_in, pic_out);
-        printf("\nNumEncoded %d\n",numEncoded);
+        //printf("\nNumEncoded %d\n",numEncoded);
     }
     while (numEncoded == 0 && !pic_in && encoder->m_numDelayedPic);
 

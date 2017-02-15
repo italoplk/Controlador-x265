@@ -710,7 +710,7 @@ int main(int argc, char **argv)
         
         //IDm
         codFrames++;
-        printf("\n%d - CODFRAME <----\n", codFrames);
+        //printf("\n%d - CODFRAME <----\n", codFrames);
 
             
         
@@ -751,10 +751,37 @@ int main(int argc, char **argv)
 
         cliopt.printStatus(outFrameCount);
                 printf("\nOutFrame %d\n", outFrameCount);
-                if(outFrameCount > 5) 
+                if(outFrameCount == 4) {
+                    param->searchRange = 40;
                     //IDm inserir controle dentro do reconfig
                      x265_encoder_reconfig(encoder, param);
-                  
+                }
+                
+                if(outFrameCount == 7) {
+                    param->searchRange = 20;
+                    param->bEnableAMP = 1;
+                    //IDm inserir controle dentro do reconfig
+                     x265_encoder_reconfig(encoder, param);
+                }
+                //printf("iiiiiiii-> %d\n", param->searchRange);
+                
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
         if (numEncoded && cliopt.csvLogLevel)
             x265_csvlog_frame(cliopt.csvfpt, *param, *pic_recon, cliopt.csvLogLevel);
 

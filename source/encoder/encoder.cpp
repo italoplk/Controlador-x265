@@ -908,8 +908,11 @@ int Encoder::reconfigureParam(x265_param* encParam, x265_param* param)
     /* Scratch buffer prevents me_range from being increased for esa/tesa */
     //IDm
     //if (param->searchRange < encParam->searchRange)
-        encParam->searchRange = 57;
-    
+        encParam->searchRange = param->searchRange;
+        encParam->bEnableAMP = param->bEnableAMP;
+        m_param->bEnableAMP = param->bEnableAMP;
+            initSPS(&m_sps);
+        
     /* We can't switch out of subme=0 during encoding. */
     if (encParam->subpelRefine)
         encParam->subpelRefine = param->subpelRefine;
